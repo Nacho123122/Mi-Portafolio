@@ -1,0 +1,213 @@
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --green-grey: #52614e;
+    --sky-blue:#0f7e86;
+    --grey: #3D3D3D;
+    --red:#3f0404;
+    --blue:#050035;
+    --lg:30px;
+    --md:25px;
+    --lw:20px;
+}
+body{
+    font-family: "Poppins";
+    background-color: var(--red);
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100%; 
+    display: grid;
+    place-items: center;
+    background-color: var(--red);
+    margin-top: 0px;
+}
+.name{
+    width: 631px;
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: var(--red);
+    color: var(--green-grey);
+    margin: 100px 0 20px 0;
+}
+.principal-picture img{
+    width: 215px;
+    height: 215px;
+    border-radius: 150px;
+    margin: 10px 20px 0px 20px ;
+    align-items: flex-end;
+   
+}
+.redes img{
+    width: 36px;
+    height: 36px;
+    margin: 20px 10px 0px 10px;
+}
+.cont{
+    font-size: var(--lw);
+}
+
+
+
+
+
+
+
+
+.cv{
+    width: 634px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--red);
+    margin: 0 0 20px 0;
+}
+.box{
+    margin: 20px 20px 20px 20px ;
+    width: 148px ;
+    height: 102px;
+    text-align: center;
+    font-size: var(--lw);
+}
+.box p{
+    color: var(--green-grey);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    width: 618px;
+    height: 80px;
+    background-color:var(--red);
+    display: flex;
+    flex-direction: row;
+}
+.download button{
+    width: 290px;
+    height: 80px;
+    background-color: var(--sky-blue);
+    color: var(--red);
+    font-size: var(--lw);
+}
+.Contac button{
+    width: 290px;
+    background-color: var(--red);
+    text-align: center;
+    height: 80px;
+    color: var(--green-grey);
+    font-size: var(--lw);
+}
+.medio{
+    width: 38px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills{
+    width: 756px;
+    height: 132px;
+    margin: 40px 0 10px 0;
+    background-color: var(--red);
+    color: var(--green-grey);
+    display: flex;
+    flex-direction: row;
+    font-size: var(--lw);
+}
+.port{
+    width: 349px;
+    height: 80px;
+    text-align: center
+}
+.ski{
+    width: 349px ;
+    height: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.page{
+    width: 757px;
+    height: 826px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.figure img{
+    width: 362px;
+    height: 226px;
+    border-radius: 15px;
+}
+.box-blue{
+    background-color: var(--sky-blue);
+    width: 362px;
+    height: 226px;
+    display: grid;
+    grid-column: auto;
+    text-align: center;
+    border-radius: 15px;
+    font-size:var(--lg) ;
+}
+
+
+@media(max-width: 900px){
+    
+    .main{
+        height: 100%;
+        width: 100%;
+    }
+    .name{
+        width: 631px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: var(--red);
+        color: var(--green-grey);
+        margin: 100px 0 20px 0;
+    }
+    .page{
+        width: 357px;
+        height: 426px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    }
+    .figure img{
+        margin: 20px 0 20px 0;
+    }
+    .box-yellow{
+        margin: 20px 0 20px 0;
+    }
+}
