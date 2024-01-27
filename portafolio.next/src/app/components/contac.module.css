@@ -1,0 +1,6 @@
+.con{
+    width: 290px;
+    height: 80px;
+    font-size: var(--xs);
+    background-color: var(--brown);
+}

@@ -1,0 +1,111 @@
+.main{
+    width: 100%;
+    height: 100%; 
+    display: grid;
+    place-items: center;
+    background-color: var(--bone);
+    margin-top: 0px;
+}
+.name{
+    width: 631px;
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: var(--red);
+    color: var(--brown);
+    margin: 100px 0 20px 0;
+}
+.title_name{
+    padding: 20px 20px 20px 20px;
+}
+.cont{
+    padding: 20px 20px 20px 20px;
+}
+.principal_picture{
+    width: 215px;
+    height: 215px;
+    border-radius: 150px;
+    margin: 10px 20px 0px 20px ;
+    align-items: flex-end;
+   
+}
+.redes img{
+    width: 36px;
+    height: 36px;
+    margin: 20px 10px 0px 10px;
+}
+.cont{
+    font-size: var(--lw);
+}
+.separacion{
+    display: flex;
+    flex-direction: column;
+}
+.cv{
+    display: flex;
+    flex-direction: row;
+    width: 634px ;
+    height: 142px;
+    display: flex;
+    padding: 20px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--brown);
+    padding: 20px 20px 20px 20px ;
+    border-radius: 20px;
+    color: var();
+    font-size: var(--md);
+}
+
+.port{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ski{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px 10px 10px 10px ;
+    border-radius: 20px;
+}
+@media(max-width: 900px){
+    
+    .main{
+        height: 100%;
+        width: 100%;
+    }
+    .name{
+        width: 631px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: var(--red);
+        color: var(--brown);
+        margin: 100px 0 20px 0;
+    }
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

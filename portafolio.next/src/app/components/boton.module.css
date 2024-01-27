@@ -1,0 +1,7 @@
+.boton{
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background: var(--blue);
+    font-size: var(--xs);
+}

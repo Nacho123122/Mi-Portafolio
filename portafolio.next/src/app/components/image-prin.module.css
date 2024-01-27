@@ -1,0 +1,14 @@
+.principal_picture{
+    width: 215px;
+    height: 215px;
+}
+.principal_picture img{
+    border-radius: 50%;
+    border-color: var(--blue);
+    border-style: dashed;
+}
+@media(max-width: 900px){
+    
+    
+    
+}

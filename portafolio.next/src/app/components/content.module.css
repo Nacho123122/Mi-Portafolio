@@ -1,0 +1,10 @@
+.box{
+    color: var(--strong_purple);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 362px;
+    height: 226px;
+    
+}
